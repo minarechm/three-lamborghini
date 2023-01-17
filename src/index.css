@@ -1,13 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Manrope&display=swap');
 body {
+  font-family: "Catamaran", sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+*{
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root{
+  position:relative;
+  width:100%;
+  height:100vh;
+}
+
+.brand{
+  position:absolute;
+  color:white;
+  top:0;
+  left:0;
+  text-transform: uppercase;
+  padding:40px;
+}
+.divWrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.div1,
+.div2,
+.div3,
+.div4,
+.div5{
+  color:white;
+  position:absolute;
+  width:100%;
+  text-align: center;
+  font-style:italic;
+  text-transform: uppercase;
+  font-size:4em;
+  word-break: break-all;
+  padding-right:4%;
+}
+.div1{
+  margin-top:35%;
+  color:black
+}
+.div2{
+  padding-left:5%;
+  text-align: right;
+  margin-top:28%;
+  color:black
+}
+.div3{
+  margin-top:5%;
+}
+.div4{
+  margin-top:20%;
+}
+.div5{
+  margin-top:37%;
 }
