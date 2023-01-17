@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/three-lamborghini/static/css/main.b4717bb1.css",
+    "main.js": "/three-lamborghini/static/js/main.f931ff20.js",
+    "index.html": "/three-lamborghini/index.html",
+    "main.b4717bb1.css.map": "/three-lamborghini/static/css/main.b4717bb1.css.map",
+    "main.f931ff20.js.map": "/three-lamborghini/static/js/main.f931ff20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4717bb1.css",
+    "static/js/main.f931ff20.js"
+  ]
+}
